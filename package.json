@@ -1,8 +1,8 @@
 {
   "scripts": {
     "test-1": "jest -- 1-variables-and-constants/main.test.js",
-    "test-2": "jest -- 2-arrays-objects-and-loops/main.test.js",
-    "test-3": "jest -- 3-tooling/main.test.js"
+    "test-2": "jest -- 2-objects/main.test.js",
+    "test-3": "jest -- 3-arrays-and-loops/main.test.js"
   },
   "devDependencies": {
     "jest": "^29.7.0"

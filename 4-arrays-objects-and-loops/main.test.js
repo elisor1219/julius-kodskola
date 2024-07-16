@@ -10,7 +10,7 @@ test('totalHeight should equal the sum of all characters heights', function () {
         testTotalHeight += character.height;
     })
 
-    expect(testTotalHeight).toEqual(totalHeight)
+    expect(totalHeight).toEqual(testTotalHeight)
 })
 
 // Test 3

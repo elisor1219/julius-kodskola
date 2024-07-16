@@ -12,7 +12,7 @@ test('crateWeights should average correctly', function () {
 
     averageCrateWeight = totalValue / crateWeights.length;
 
-    expect(averageCrateWeight).toEqual(averageWeight)
+    expect(averageWeight).toEqual(averageCrateWeight)
 })
 
 // Test 3
